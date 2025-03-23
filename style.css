@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#FFFAEC;
+}
+
+h1{
+    color: #3D3D3D;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;;
+}
+#root{
+    height: 500px;
+    width: 500px;
+    background-color: #578E7E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    border: 4px solid #3D3D3D;
+    padding: 35px;
+
+}
+
+#buttDiv{
+    margin-top: 40px;
+}
+
+#picture{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    opacity: 0.5;
+    border: 5px solid #FFFAEC;
+    background-image: url('./image/pictures.jpg');  /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;  /* Optional: To make sure the image covers the whole area */
+    background-position: center center;  /* Optional: To center the image */
+}
+
+#btn1{
+  top: 150px;
+  font-family: calibri;
+  width: 150px;
+  padding: 10px;
+  border: 1px dashed #BBB;
+  text-align: center;
+  background-color: #DDD;
+  cursor: pointer;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outputTXT{
+    font-size: 50px;
+    color: #DDD;
+    font-family: "Oswald", sans-serif;
+}
+
+#outputBox{
+    display:none; /* inline */
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 50px;
+    border: 4px solid #3D3D3D;
+    background-color: #578E7E;
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    font-size: 30px;
+    color: #3D3D3D;
+    font-family: "Oswald", sans-serif;
+}

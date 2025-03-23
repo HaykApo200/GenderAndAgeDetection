@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+    <title>Gender and age detection</title>
+    <script src="keys.env"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div><h1>Gender and age detection</h1></div>
+    <div id="container">
+        <div id="root">
+            <div id="picture"></div>
+            <div id = 'buttDiv'><input type="file" name="photo" id="btn1" onchange="javascript:detect_faces()"/></div>
+        </div>
+        <div id="outputBox"><h1 id="outputTXT">Output</h1> <p id="output"></p></div>
+    </div>
+</body>
+<script src="detect.js"></script>
+<script src="detect_faces.js"></script>
+<script src="main.js"></script>
+</html>
